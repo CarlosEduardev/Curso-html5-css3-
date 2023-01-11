@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited { 
+        color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+a:active {
+    background-color: yellow;
+}

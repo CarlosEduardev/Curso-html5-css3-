@@ -1,0 +1,152 @@
+@charset "UFT-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+    * { 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+   /* Primeira parte, o cabeçalho com menu*/
+    header { 
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to top, #063d1e 20%, #2fa866 80%);
+        color: white;
+        
+    }
+    
+    header > h1 { 
+        
+        text-align: center;
+        font-family: 'Bebas Neue',cursive;
+        height: 177.2px; 
+        width: 962.4px;
+        padding: 0x;
+    }
+    header > p {
+        color: lightgrey;
+        text-align: center;
+    }
+
+    #menu {
+        color: rgba(255, 255, 255, 0.864);
+        background-color: #063d1e;
+        text-align: left;
+        text-overflow: clip;
+        text-decoration: none;
+        padding: 0px 6px;
+        margin-left: 5px;
+        
+        
+    }
+
+    #menu:hover {
+        background-color: #338c4c;
+        color: black;
+        
+    }
+    /* Agora eu vou fazer o body completo*/
+    body { 
+        background-color: #83e1ad;
+        
+        
+    }
+
+    p { 
+        text-indent: 30px;
+        text-align: start;
+        padding: 10px;
+        line-height: 2.0em;
+    }
+    main {
+        background-color: white;
+        margin-top: 0px;
+        width: 810px;
+        box-shadow: 5px, 5px, 15px, black;
+        
+        padding: 10px;
+        margin: auto;
+        
+    }
+    h1#principal { 
+        font-family: 'idroid', 'Times', 'Serif';
+        color: #084d1e;
+        margin-left: 10px;
+        margin-block-start: 0px;
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    .secundario { 
+        font-family: 'idroid', 'Times', 'Serif';
+        color: #084d1e;
+        margin-left: 10px;
+        font-size: 28px;
+        background-image: linear-gradient(to right, #1eb07872, #2bbdc200)
+
+    }
+    article#bugdroid {
+        
+        text-align: center;
+    }
+    
+    div#video {
+        text-align: center;
+        background-color: #084d1e;
+        padding-bottom: 15px;
+        padding-top: 25px;
+        
+    }
+    
+    section#lista { 
+        background-color: #83E1AD;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 15px, black;
+    width: 780px;
+    height: max-content;
+    padding: 0px;
+    margin: auto;
+    }
+
+    ul { 
+        list-style-type: '\2714\0020\0020';
+        columns: 2;
+        list-style-position: inside;
+    }
+    section#lista > h3 { 
+        color: white;
+        background-color: #1A5C37;
+        padding: 9px;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+
+    .negrito {
+        color: #063d1e;
+        font-weight: 700;
+        background-color: #86E2AF;
+        text-decoration: solid;
+    }
+    .negrito:hover {
+        text-decoration: underline;
+        color: #065728;
+    }
+    
+    p#rodape{
+        background-color: #063d1e;
+        color: lightgray;
+        text-align: center;
+        margin: auto;
+        padding: 0%;
+        
+
+    }
+
+    .rodapeneg {
+        color: white;
+    }
+    
+
+
+    
